@@ -1,0 +1,29 @@
+/* 播放器容器样式 */
+.music_box {
+    position: relative;
+    width: 100%; /* 根据需要设置宽度 */
+    background: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* 歌词显示样式 */
+#lyrics_display {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 歌词行样式，用于高亮当前行 */
+.lyric-line {
+    cursor: pointer;
+    padding: 5px;
+    transition: background 0.3s;
+}
+
+.lyric-line.current {
+    background-color: #e0e0e0;
+}
+
+/* 其他样式可以根据需要继续添加 */
